@@ -4,7 +4,7 @@ This code book summarizes the resulting data fields in tidy.txt.
 You have to download sourse data from link below and unzip it to working directory of R Studio. You have to perform R script. About source data
 
 As sourse data for work was used Human Activity Recognition Using Smartphones Data Set. 
-A full description is available at the site where the data was obtained: [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) 
+A full description is available at the site where the data was obtained: [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 Here are the data for the project: [Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 ## 7 steps of the code
