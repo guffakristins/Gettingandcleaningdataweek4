@@ -7,15 +7,30 @@ As sourse data for work was used Human Activity Recognition Using Smartphones Da
 A full description is available at the site where the data was obtained: [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) 
 Here are the data for the project: [Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
+# 7 steps of the code
+
+* 1. Download and unzip the file.
+* 2. Loads "activity labels" and "features".
+* 3. Extracts the needed mean and standard deviation.
+* 4. Loads "train" and "test" datasets.
+* 5. Merges the two datasets.
+* 6. Converts the activity and subject columns into factors.
+* 7. Creates a tidy dataset.
+
+The end result is shown in the file tidy.txt.
+
+
 #Measurements
 
-There are 78 measurements like 
-*tBodyAccMeanX*
-*tBodyAccMeanY*
-*tBodyAccMeanZ*
-*tBodyAccStdX*
-*tBodyAccStdY*
-*tBodyAccStdZ*
+There are 78 measurements that changed from the raw data to the tidy data:
+
+Tidy data | Raw data
+subject | subject
+activity | activity
+tBodyAcc-mean()-X | tBodyAccMeanX
+tBodyAcc-mean()-Y | tBodyAccMeanY
+tBodyAcc-mean()-Z | tBodyAccMeanZ
+tBodyAcc-std()-X | tBodyAccStdX
 
 #Activity Labels
 
