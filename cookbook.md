@@ -1,4 +1,4 @@
-## Code Book
+# Code Book
 
 This code book summarizes the resulting data fields in tidy.txt.
 You have to download sourse data from link below and unzip it to working directory of R Studio. You have to perform R script. About source data
@@ -7,7 +7,7 @@ As sourse data for work was used Human Activity Recognition Using Smartphones Da
 A full description is available at the site where the data was obtained: [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) 
 Here are the data for the project: [Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-# 7 steps of the code
+## 7 steps of the code
 
 * 1. Download and unzip the file.
 * 2. Loads "activity labels" and "features".
@@ -20,11 +20,12 @@ Here are the data for the project: [Dataset](https://d396qusza40orc.cloudfront.n
 The end result is shown in the file tidy.txt.
 
 
-#Measurements
+## Measurements
 
 There are 78 measurements that changed from the raw data to the tidy data:
 
 Tidy data | Raw data
+------------ | -------------
 subject | subject
 activity | activity
 tBodyAcc-mean()-X | tBodyAccMeanX
@@ -32,7 +33,7 @@ tBodyAcc-mean()-Y | tBodyAccMeanY
 tBodyAcc-mean()-Z | tBodyAccMeanZ
 tBodyAcc-std()-X | tBodyAccStdX
 
-#Activity Labels
+## Activity Labels
 
 * 1. WALKING: subject was walking during the test10
 * 2. WALKING_UPSTAIRS: subject was walking up a staircase during the test
